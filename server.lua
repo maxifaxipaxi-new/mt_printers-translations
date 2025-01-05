@@ -48,7 +48,6 @@ end)
 ---@return boolean
 lib.callback.register('mt_printers:server:place', function(source, printer, coords, heading)
     local src = source
-    local Player = exports.qbx_core:GetPlayer(src)
     coords = vec4(coords.x, coords.y, coords.z, heading)
     MySQL.insert('INSERT INTO `printers` (printer, coords) VALUES (?, ?)', {
         printer, json.encode(coords)
