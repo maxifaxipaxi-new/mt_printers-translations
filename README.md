@@ -46,5 +46,5 @@ Add this items for your ox_inventory
   close = true,
 },
 ```
-Add the items image for your inventory
+Add the items image for your inventory <br>
 Run the sql.sql file on your server database
