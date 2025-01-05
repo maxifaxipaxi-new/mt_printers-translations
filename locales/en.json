@@ -1,0 +1,8 @@
+{
+    "textui_place": "[SCROLL] - Rotação    \n[ENTER] - Colocar    \n[BACKSPACE] - Cancelar",
+    "target_use": "Usar impressora",
+    "target_pick": "Apanhar impressora",
+    "input_url_match": "^https?://i%.ibb%.co/.+%.png$",
+    "notify_no_paper": "Não tens papel",
+    "notify_wrong_url": "O URL está errado"
+}
