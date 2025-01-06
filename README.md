@@ -19,7 +19,7 @@ https://youtu.be/IqUXADVi6n8
 - ox_inventory
 
 # Installation
-Add this items for your ox_inventory
+- Add this items for your ox_inventory
 ```lua
 ["low_printer"] = {
   label = "Impressora pequena",
@@ -46,5 +46,10 @@ Add this items for your ox_inventory
   close = true,
 },
 ```
-Add the items image for your inventory <br>
-Run the sql.sql file on your server database
+- Add the items image for your inventory <br>
+- Run the sql.sql file on your server database <br>
+- On the ox_inventory/modules/utils/server.lua add:
+```lua
+['i.ibb.co'] = true
+```
+to the validHosts
