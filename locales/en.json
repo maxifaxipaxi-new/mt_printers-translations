@@ -1,8 +1,8 @@
 {
-    "textui_place": "[SCROLL] - Rotação    \n[ENTER] - Colocar    \n[BACKSPACE] - Cancelar",
-    "target_use": "Usar impressora",
-    "target_pick": "Apanhar impressora",
-    "input_url_match": "^https?://i%.ibb%.co/.+%.png$",
-    "notify_no_paper": "Não tens papel",
-    "notify_wrong_url": "O URL está errado"
+  "textui_place": "[SCROLL] - Rotation    \n[ENTER] - Place    \n[BACKSPACE] - Cancel",
+  "target_use": "Use printer",
+  "target_pick": "Pick up printer",
+  "input_url_match": "^https?://i%.ibb%.co/.+%.png$",
+  "notify_no_paper": "You don't have paper",
+  "notify_wrong_url": "The URL is incorrect"
 }
