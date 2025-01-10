@@ -66,7 +66,7 @@ local openPrinter = function()
         if not input[1] or not input[2] or not input[3] then return end
         if not input[2]:match(locale('input_url_match')) then notify(locale('notify_wrong_url'), 'error') return end
         if exports.ox_inventory:GetItemCount('printer_paper') < input[3] then notify(locale('notify_no_paper'), 'error') return end
-        if lib.progressBar({ label = 'Printing document', duration = 5000 }) then
+        if lib.progressBar({ label = locale('print_progress'), duration = 5000 }) then
             lib.callback.await('mt_printers:server:printDocument', false, input)
         end
     end
