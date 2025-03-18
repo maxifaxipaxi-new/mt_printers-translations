@@ -1,0 +1,15 @@
+{
+  "textui_place": "[SCROLL] - Rotation    \n[ENTER] - Platzieren    \n[BACKSPACE] - Abbrechen",
+  "target_use": "Drucker verwenden",
+  "target_pick": "Drucker aufnehmen",
+  "input_url_match": "^https?://i%.ibb%.co/.+%.png$",
+  "notify_no_paper": "Du hast kein Papier",
+  "notify_wrong_url": "Die URL ist ungültig",
+  "printer": "Drucker",
+  "image_placeholder": "Schönes Bild",
+  "image_name": "Bildname",
+  "img_link": "Nur Links von imgbb.com",
+  "image_url": "URL des Bildes zum Drucken",
+  "img_to_print": "Bild zum Drucken",
+  "quantity": "Menge zum Drucken"
+}
